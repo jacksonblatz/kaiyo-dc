@@ -1,0 +1,16 @@
+This project uses two licenses.
+
+1. Documentation, images, renders, and the Blender model
+   (README, page text, maps, stills, video, GIF, and kaiyo_dc.blend)
+   are licensed under Creative Commons Attribution 4.0 International
+   (CC BY 4.0). See LICENSE-CC-BY-4.0.txt, or:
+
+       https://creativecommons.org/licenses/by/4.0/
+
+2. Python and Blender scripts
+   (kaiyo_dc_build.py, kaiyo_dc_render.py, page/make_sites_map.py)
+   are licensed under the MIT License. See LICENSE-MIT.txt.
+
+The Noto Sans font files under page/fonts/ are not covered by the
+licenses above. They are licensed under the SIL Open Font License,
+Version 1.1. See page/fonts/OFL.txt.

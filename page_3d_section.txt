@@ -1,0 +1,27 @@
+TOC item (insert after the "Architectural sketches" item):
+          { label: "3D model", id: "model-3d" },
+
+Section (insert between the "Architectural sketches" </Section> and <Section heading="Built in modules" id="modules">):
+      <Section heading="3D model" id="model-3d">
+        <Text>
+          This is a first 3D blockout of Layout C, built in Blender from a Python script. It is a stylized massing model at a rough concept scale, not an engineered or photoreal design. The whole outer ring is now the biosphere: one continuous, low, aerodynamic donut shell about 1 km across and about 36 m tall at the crown. Semi-transparent solar glass covers the top and inner faces, and solar tiles cover the outer and lower faces. Rib bands every 7.5° mark the module joints and the storm shutters. The forest grows inside the shell. The lagoon stays open in the donut hole, with a bridge to the slim hub tower, which has mixed-use floors only at the top and a glass observation tube going down into the water. An outboard service apron holds the crane, an inclined pod-lift shaft, the dock, the desalination block, freshwater tanks, the seawater intake and the brine outfall. Wave converters ring the outside. Below the water, three stacked rings of GPU pods with corridors sit like an upside-down wedding cake, with spokes to the core. Only the bottom ring has legs down to the seabed. Umbilicals, an export cable and mooring lines are shown too.
+        </Text>
+        <Image
+          src="asset:<HERO_ASSET>"
+          alt="3D blockout render, aerial view: a continuous glazed donut-shaped biosphere ring with rib bands and trees inside, around an open lagoon with a bridge to a slim central hub tower, an outboard service apron with crane, tanks and a dock, yellow wave converters around the outside, and the stacked server-pod rings faintly visible through the water."
+          caption="Hero aerial render of the 3D blockout (Blender 4.2, Cycles). Rough concept scale."
+          ratio="16 / 9"
+        />
+        <Image
+          src="asset:<CUTAWAY_ASSET>"
+          alt="3D blockout cutaway with the near half removed: the hub tower and elevator core descending past the observation level, three stacked rings of server pods with corridors and spokes stepping inward with depth, legs from the bottom ring to the seabed, orange umbilicals, and the cut end of the glazed biosphere shell at the waterline."
+          caption="Cutaway section: the near half is removed to show above and below the waterline. Nearly all of the submerged volume is GPU and server pods."
+          ratio="40 / 17"
+        />
+        <Image
+          src="asset:<FLY_GIF_ASSET>"
+          alt="Animated preview of the 3D flythrough: the camera orbits from a high aerial view, descends to sea level, and dips below the waterline to look up at the stacked pod rings under the biosphere ring."
+          caption="Flythrough preview, about 15 s, orbiting from the air and dipping below the waterline. The full 720p MP4 is kept with the Blender files."
+          ratio="16 / 9"
+        />
+      </Section>
