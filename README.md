@@ -26,10 +26,10 @@ From the repository root, with Blender on `PATH`:
     blender -b kaiyo_dc.blend -P kaiyo_dc_render.py -- hero
     blender -b kaiyo_dc.blend -P kaiyo_dc_render.py -- cutaway
 
-To redraw the site map (Python 3, Matplotlib, and Pillow):
+To redraw the site map (Python 3, plus Matplotlib, Pillow, Cartopy, Shapely, pyproj, and NumPy):
 
     python3 -m venv .venv
-    .venv/bin/pip install matplotlib pillow
+    .venv/bin/pip install matplotlib pillow numpy shapely pyproj cartopy
     .venv/bin/python page/make_sites_map.py
 
 The existing `page/sites-map.png` is the last generated map. If you regenerate it, review the labels before committing.
